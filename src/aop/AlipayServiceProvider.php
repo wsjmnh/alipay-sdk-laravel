@@ -14,7 +14,7 @@ class AlipayServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../../config/config.php' => config_path('alipay.php'),
+            __DIR__.'/../config/config.php' => config_path('alipay.php'),
         ]);
     }
 
@@ -26,7 +26,7 @@ class AlipayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../../config/config.php',
+            __DIR__ . '/../config/config.php',
             'alipay'
         );
     }
