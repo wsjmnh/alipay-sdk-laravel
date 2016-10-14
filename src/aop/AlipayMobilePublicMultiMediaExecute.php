@@ -7,7 +7,7 @@
  */
 
 //namespace alipay\api ;
-
+namespace Wsjmnh\Alipay;
 
 
 class AlipayMobilePublicMultiMediaExecute{

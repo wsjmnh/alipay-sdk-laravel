@@ -6,7 +6,7 @@
  * Date: 16/3/30
  * Time: 下午3:25
  */
-
+namespace Wsjmnh\Alipay;
 /**
  * 加密方法
  * @param string $str

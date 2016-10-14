@@ -5,7 +5,7 @@ return [
     'appId' => '2016xxxxxxxxxxxx',
 
     //private key path
-    'rsaPrivateKeyFilePath' => '',
+    'rsaPrivateKeyFilePath' => storage_path('app/alipay/rsa_private_key.pem'),
 
     //gateway
     'gatewayUrl' => 'https://openapi.alipay.com/gateway.do',
@@ -18,7 +18,7 @@ return [
 
     'postCharset' => "UTF-8",
 
-    'alipayPublicKey' => null,
+    'alipayPublicKey' => storage_path('app/alipay/rsa_public_key.pem'),
 
     'debugInfo' => false,
 

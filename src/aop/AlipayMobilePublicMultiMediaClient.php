@@ -7,6 +7,7 @@
  */
 
 //namespace alipay\api ;
+namespace Wsjmnh\Alipay;
 
 include("AlipayMobilePublicMultiMediaExecute.php");
 
