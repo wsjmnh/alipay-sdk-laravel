@@ -1,18 +1,23 @@
 {
-    "name": "wsjmnh/alipay-sdk-laravel",
-    "description": "alipay SDK for Laravel",
-    "homepage": "http://www.alipay.com/",
-    "type": "library",
-    "authors": [
-        {
-            "name": "wsjmnh",
-            "homepage": "http://www.alipay.com/"
-        }
-    ],
-    "require": {
-        "php":">=5.5"
-    },
-    "autoload": {
-        "classmap": ["src/aop/"]
+  "name": "wsjmnh/alipay-sdk-laravel",
+  "description": "Alipay SDK for Laravel",
+  "homepage": "http://www.alipay.com/",
+  "type": "library",
+  "authors": [
+    {
+      "name": "wsjmnh",
+      "homepage": "http://www.alipay.com/"
     }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "classmap": [
+      "src/aop/"
+    ],
+    "psr-4": {
+      "Wsjmnh\\Alipay\\": "src/aop"
+    }
+  }
 }
