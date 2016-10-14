@@ -1,1 +1,4 @@
-# alipay-sdk-php
+# alipay-sdk-laravel
+
+---
+Avoid conflict of 'encrypt' function.

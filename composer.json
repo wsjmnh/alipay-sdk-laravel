@@ -1,11 +1,11 @@
 {
-    "name": "alipay/alipay-sdk-php",
-    "description": "alipay SDK for PHP",
+    "name": "wsjmnh/alipay-sdk-laravel",
+    "description": "alipay SDK for Laravel",
     "homepage": "http://www.alipay.com/",
     "type": "library",
     "authors": [
         {
-            "name": "alipay",
+            "name": "wsjmnh",
             "homepage": "http://www.alipay.com/"
         }
     ],
