@@ -16,13 +16,13 @@ return [
     //api version
     'apiVersion' => '1.0',
 
-    'postCharset' => "UTF-8",
+    'postCharset' => "utf-8",
 
     'alipayPublicKey' => storage_path('app/alipay/rsa_public_key.pem'),
 
     'debugInfo' => false,
 
-    'fileCharset' => "UTF-8",
+    'fileCharset' => "utf-8",
 
     'RESPONSE_SUFFIX' => "_response",
 
