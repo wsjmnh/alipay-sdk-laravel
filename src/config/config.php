@@ -60,8 +60,6 @@ return [
     'partner' => '2088xxxxxx',
     "seller_id" => '2088xxxxxx',
     "payment_type" => 1,
-    'notify_url' => null,
-    'return_url' => null,
     'anti_phishing_key' => null,
     'exter_invoke_ip' => null,
 ];
