@@ -44,4 +44,24 @@ return [
     'encryptType' => "AES",
 
     'alipaySdkVersion' => "alipay-sdk-php-20160411",
+
+
+    // for Alipay.php only
+    'sign_type' => "RSA",
+    'transport' => 'http',
+    'cacert' => null,
+    'public_key_path' => null,
+    'private_key_path' => null,
+
+
+    'input_charset' => 'utf-8',
+
+    'service' => null,
+    'partner' => '2088xxxxxx',
+    "seller_id" => '2088xxxxxx',
+    "payment_type" => 1,
+    'notify_url' => null,
+    'return_url' => null,
+    'anti_phishing_key' => null,
+    'exter_invoke_ip' => null,
 ];
